@@ -19,6 +19,10 @@
     margin: 0.1em;
     padding: 0.5em 0;
   }
+  .card:hover{
+    background-color: rgba(59, 59, 201, 0.989);
+    color: white;
+  }
   h1 {
     width: 100%;
     text-align: center;
