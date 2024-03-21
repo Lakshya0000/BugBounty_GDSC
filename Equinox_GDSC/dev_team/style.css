@@ -12,9 +12,11 @@
     flex-wrap: wrap;
     padding: 2em 1em;
     text-align: center;
+    justify-content:space-evenly;
   }
   .column {
     width: 100%;
+    margin: 0.1em;
     padding: 0.5em 0;
   }
   h1 {
@@ -69,6 +71,9 @@
     section {
       padding: 1em 7em;
     }
+    .column {
+      width: 70%;
+    }
   }
   @media screen and (min-width: 992px) {
     section {
@@ -76,5 +81,10 @@
     }
     .card {
       padding: 5em 1em;
+      width: 100%;
     }
-  }
+    .column {
+      width: 30%;
+    }
+    
+  } 
