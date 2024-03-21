@@ -86,5 +86,8 @@
     .column {
       width: 30%;
     }
+    *{
+      overflow: hidden;
+    }
     
   } 
